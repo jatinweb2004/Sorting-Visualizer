@@ -1,0 +1,172 @@
+.array-container {
+    position: absolute;
+    width: 100%;
+  }
+
+.sort-heading{
+  margin-top: 3vw;
+  color: #000;
+  font-family: "Pangea Trial";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+  .slider{
+    /* margin-top: 4vw; */
+    
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: center;
+  }
+
+  .genDiv{
+    display: flex;
+    justify-content: center;
+    margin: 0.8rem;
+
+  }
+
+  .genBtn{
+    display: flex;
+    align-items: center;
+    height: auto;
+    position: relative;
+    position: relative;
+    padding: 0.5vw 1vw;
+    border-radius: 4px;
+    font-family: "Pangea Trial";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color:#656565;
+    background: rgba(186, 232, 77, 0.50);
+    color: #000;
+    /* width: 10vw; */
+    /* height: 2.5vh; */
+    border-radius: 0.375rem;
+    border: 2px solid #BAE84D;
+    background: rgba(186, 232, 77, 0.50);
+  }
+
+  .box{
+    height: 60vh;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    margin: 0.5vw 5vw;
+    width: 88vw;
+    display: flex;
+    justify-content: space-between;
+    transform: rotateX(180deg);
+  }
+  
+  .array-bar {
+    /* width: 10px; */
+    background-color: turquoise;
+    display: inline-block;
+    /* margin: 0 4px; */
+  }
+
+  .start-btn-div{
+    display: flex;
+    justify-content: center;
+    margin: 0.8vw;
+    margin-bottom: 0px;
+  }
+
+  .start-btn{
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border: none;
+    border-radius: 2.5rem;
+    background: #BAE84D;
+    color: #000;
+    font-family: "Pangea Trial";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .theory-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    border: 2px solid grey;
+    padding: 3vw 2vw 3vw 2vw;
+    margin: 10vw 3vw 4vw 3vw;
+  }
+
+  .theory-content div{
+    text-align: left;
+  }
+
+  .theory-content ul li{
+    text-align: left;
+  }
+
+  .theory-content ol li{
+    text-align: left;
+  }
+
+  .theory-content img{
+    width: 70vw;
+    margin: 2vw;
+    border: 2px solid darkgray;
+  }
+
+  .code-block{
+    border-radius: 0.25rem;
+    border: 1px solid #d3d3d3;
+    background: #f5f5f7;
+    display: flex;
+    padding: 1.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* font-size: 1.2vw; */
+    font-weight: 550;
+    gap: 1.5rem;
+    outline: none;
+    width: 80vw;
+    margin-top: 6px;
+    text-align: left;
+  }
+
+  .code-output{
+    border-radius: 0.25rem;
+    border: 1px solid #d3d3d3;
+    background: #f5f5f7;
+    padding: 0.5rem;
+    padding-right: 5vw;
+    font-weight: 550;
+    outline: none;
+    width: fit-content;;
+  }
+
+  @media (max-width: 1300px) {
+    .sort-heading{
+      visibility: hidden;
+    }
+    
+  }
+
+  @media (max-width: 768px) {
+    .sort-heading{
+      visibility: initial;
+    }
+
+    .codes{
+      display: none;
+    }
+
+
+    
+  }
